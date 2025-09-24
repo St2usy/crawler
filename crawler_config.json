@@ -1,0 +1,12 @@
+{
+  "base_url": "https://csai.jbnu.ac.kr",
+  "target_url": "https://csai.jbnu.ac.kr/csai/29107/subview.do",
+  "data_file": "notices_data.json",
+  "check_interval_minutes": 30,
+  "max_pages": 2,
+  "notification": {
+    "enabled": false,
+    "webhook_url": "",
+    "message_template": "새로운 공지사항이 등록되었습니다: {title}"
+  }
+}
