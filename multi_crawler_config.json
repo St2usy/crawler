@@ -1,0 +1,18 @@
+{
+  "base_url": "https://csai.jbnu.ac.kr",
+  "data_file": "multi_notices_data.json",
+  "check_interval_minutes": 30,
+  "max_pages": 2,
+  "target_urls": {
+    "https://csai.jbnu.ac.kr/csai/29105/subview.do": "학과소식",
+    "https://csai.jbnu.ac.kr/csai/29106/subview.do": "일반공지",
+    "https://csai.jbnu.ac.kr/csai/29107/subview.do": "학사공지",
+    "https://csai.jbnu.ac.kr/csai/31501/subview.do": "사업단공지",
+    "https://csai.jbnu.ac.kr/csai/29108/subview.do": "취업정보"
+  },
+  "notification": {
+    "enabled": false,
+    "webhook_url": "",
+    "message_template": "새로운 공지사항이 등록되었습니다: [{category}] {title}"
+  }
+}
