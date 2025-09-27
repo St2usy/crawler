@@ -1,0 +1,16 @@
+{
+  "base_url": "https://csai.jbnu.ac.kr",
+  "data_file": "notices_data.json",
+  "max_pages": 6,
+  "target_urls": {
+    "https://csai.jbnu.ac.kr/csai/29105/subview.do": "학과소식",
+    "https://csai.jbnu.ac.kr/csai/29106/subview.do": "일반공지",
+    "https://csai.jbnu.ac.kr/csai/29107/subview.do": "학사공지",
+    "https://csai.jbnu.ac.kr/csai/31501/subview.do": "사업단공지",
+    "https://csai.jbnu.ac.kr/csai/29108/subview.do": "취업정보",
+    "https://swuniv.jbnu.ac.kr/main/jbnusw?gc=605XOAS": "SW중심대학사업단공지",
+    "https://swuniv.jbnu.ac.kr/main/jbnusw?gc=483ZJFR": "SW중심대학사업단소식",
+    "https://swuniv.jbnu.ac.kr/main/jbnusw?gc=Program": "SW중심대학사업단프로그램"
+  }
+}
+
