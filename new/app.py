@@ -24,7 +24,6 @@ app = FastAPI(
 )
 
 # CORS 설정 (React 연동을 위해)
-# 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],  # React 개발 서버 주소
@@ -43,7 +42,7 @@ def cleanup_resources():
         
         # 스케줄러 중지
         if hasattr(crawler_service, 'scheduler_service'):
-            crawler_service.scheduler_service.stop_scheduler()
+            crawler_service.stop_scheduler()
             print("✅ 스케줄러 중지 완료")
         
         # Firebase 연결 정리

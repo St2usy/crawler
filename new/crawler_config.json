@@ -1,7 +1,7 @@
 {
   "base_url": "https://csai.jbnu.ac.kr",
   "data_file": "notices_data.json",
-  "max_pages": 6,
+  "max_pages": 3,
   "target_urls": {
     "https://csai.jbnu.ac.kr/csai/29105/subview.do": "학과소식",
     "https://csai.jbnu.ac.kr/csai/29106/subview.do": "일반공지",
@@ -10,7 +10,11 @@
     "https://csai.jbnu.ac.kr/csai/29108/subview.do": "취업정보",
     "https://swuniv.jbnu.ac.kr/main/jbnusw?gc=605XOAS": "SW중심대학사업단공지",
     "https://swuniv.jbnu.ac.kr/main/jbnusw?gc=483ZJFR": "SW중심대학사업단소식",
-    "https://swuniv.jbnu.ac.kr/main/jbnusw?gc=Program": "SW중심대학사업단프로그램"
+    "https://swuniv.jbnu.ac.kr/main/jbnusw?gc=Program": "SW중심대학사업단프로그램",
+    "https://sw.kunsan.ac.kr/main/sw?gc=605XOAS": "군산대SW사업단공지",
+    "https://sw.kunsan.ac.kr/main/sw?gc=483ZJFR": "군산대SW사업단소식",
+    "https://www.kunsan.ac.kr/cie/board/list.kunsan?boardId=BBS_0000758&menuCd=DOM_000011204001000000&contentsSid=4535&cpath=%2Fcie": "군산대컴퓨터정보공학과공지사항",
+    "https://www.kunsan.ac.kr/cie/board/list.kunsan?boardId=BBS_0000761&menuCd=DOM_000011204003000000&contentsSid=4550&cpath=%2Fcie": "군산대컴퓨터정보공학과취업공고"
   }
 }
 

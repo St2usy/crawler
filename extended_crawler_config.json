@@ -1,0 +1,54 @@
+{
+  "data_file": "extended_notices_data.json",
+  "check_interval_minutes": 30,
+  "max_pages": 2,
+  "domains": {
+    "jbnu": {
+      "base_url": "https://csai.jbnu.ac.kr",
+      "name": "전북대학교 컴퓨터인공지능학부",
+      "enabled": true,
+      "urls": {
+        "https://csai.jbnu.ac.kr/csai/29105/subview.do": "학과소식",
+        "https://csai.jbnu.ac.kr/csai/29106/subview.do": "일반공지",
+        "https://csai.jbnu.ac.kr/csai/29107/subview.do": "학사공지",
+        "https://csai.jbnu.ac.kr/csai/31501/subview.do": "사업단공지",
+        "https://csai.jbnu.ac.kr/csai/29108/subview.do": "취업정보"
+      }
+    },
+    "kunsan": {
+      "base_url": "https://www.kunsan.ac.kr",
+      "name": "군산대학교 컴퓨터정보공학과",
+      "enabled": true,
+      "urls": {
+        "https://www.kunsan.ac.kr/cie/board/list.kunsan?boardId=BBS_0000758&menuCd=DOM_000011204001000000&contentsSid=4535&cpath=%2Fcie": "공지사항",
+        "https://www.kunsan.ac.kr/cie/board/list.kunsan?boardId=BBS_0000761&menuCd=DOM_000011204003000000&contentsSid=4550&cpath=%2Fcie": "취업공고",
+        "https://www.kunsan.ac.kr/cie/board/list.kunsan?boardId=BBS_0001181&menuCd=DOM_000011204007000000&contentsSid=7252&cpath=%2Fcie": "학과소식"
+      }
+    },
+    "sw_kunsan": {
+      "base_url": "https://sw.kunsan.ac.kr",
+      "name": "군산대학교 SW 사업단",
+      "enabled": false,
+      "note": "SSL 연결 문제로 일시 비활성화",
+      "urls": {
+        "https://sw.kunsan.ac.kr/main/sw?gc=605XOAS&sca=": "공지사항",
+        "https://sw.kunsan.ac.kr/main/sw?gc=483ZJFR": "프로그램소개",
+        "https://sw.kunsan.ac.kr/main/sw?gc=Program": "프로그램"
+      }
+    }
+  },
+  "notification": {
+    "enabled": false,
+    "webhook_url": "",
+    "message_template": "새로운 공지사항이 등록되었습니다: [{domain}] [{category}] {title}"
+  },
+  "crawling_settings": {
+    "use_threading": true,
+    "max_workers": 5,
+    "request_delay": 0.5,
+    "content_delay": 0.3,
+    "timeout": 10,
+    "verify_ssl": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+  }
+}
